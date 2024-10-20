@@ -1,0 +1,39 @@
+#footer {
+  width: 144rem;
+  margin: auto;
+  background-color: $background_color_1;
+  .foot {
+    @include flex(space-between, start);
+    gap: 7rem;
+    height: 9.6rem;
+    & div:nth-child(1) {
+      width: 48rem;
+      h1 {
+        font-family: "GFS Didot";
+        font-size: 52.2px;
+        font-weight: 400;
+        line-height: 58px;
+        margin-bottom: 2rem;
+      }
+    }
+    & div:nth-child(2) {
+      width: 25rem;
+      p {
+        font-family: "Raleway";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: $colorBlack2;
+      }
+    }
+    p{
+        font-family: "Raleway";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: $colorBlack2;
+    }
+  }
+}
